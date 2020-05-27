@@ -1,0 +1,20 @@
+@media(max-width:640px){
+   ul{
+       display: inherit;
+   }
+   ul li {
+       padding-right: 0px;
+   }
+   section{
+       margin-top:0px;
+   }
+    .col-4{
+        width: auto
+    }
+    .col-8{
+        width: auto;
+    }
+    .row{
+        display: grid;
+    }
+}

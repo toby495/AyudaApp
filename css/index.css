@@ -1,0 +1,84 @@
+/*Generales-------------------------------------------------------------------------------------------*/
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color:rgb(72, 130, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+header li{
+   padding-right: 20px;
+}
+section{
+    padding: 10px;
+    margin-top: 100px;
+}
+label{
+    font-size: 18px;
+}
+/*Fin Generales-------------------------------------------------------------------------------------------*/
+
+/*Clases--------------------------------------------------------------------------------------------------*/
+.nav-options a{
+text-decoration: none;
+color: white;
+}
+.Modulept1{
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.Modulept1:hover{
+    border: 2px solid rgb(167, 181, 212);
+    transition: 0.1s ease-in-out 0.5s;
+}
+
+.Modulept2{
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    padding: 10px;
+}
+.Modulept2:hover{
+    border: 2px solid rgb(167, 181, 212);
+    transition: 0.1s ease-in-out 0.5s;
+}
+.Modulept2 input{
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.logimg1{
+    max-width: 150px;
+    margin: auto;
+}
+/*FinClases-------------------------------------------------------------------------------------------*/
+
+
+
+/*Id's------------------------------------------------------------------------------------------------*/
+#send{
+    background-color:rgb(72, 130, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+#logoImg2{
+    max-width: 150px;
+}
+/*Id's------------------------------------------------------------------------------------------------*/
