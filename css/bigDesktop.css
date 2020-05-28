@@ -1,5 +1,5 @@
-
-/*Generales-------------------------------------------------------------------------------------------*/
+@media(min-width:1500px){
+    /*Generales-------------------------------------------------------------------------------------------*/
 *{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,19 +24,22 @@ header li{
 }
 section{
     padding: 10px;
-    margin-top: 100px;
+    margin-top: 180px;
 }
 label{
-    font-size: 18px;
+    font-size: 35px;
 }
 li a{
-    font-size: 20px;
+    font-size: 40px;
+}
+h3{
+    font-size: 50px;
 }
 /*Fin Generales-------------------------------------------------------------------------------------------*/
 
 /*Clases--------------------------------------------------------------------------------------------------*/
 .logo img{
-    max-width: 150px;
+    max-width: 300px;
 }
 .nav-options a{
 text-decoration: none;
@@ -47,7 +50,9 @@ color: white;
     padding: 10px;
     text-align: center;
 }
-
+.Modulept1 p{
+    font-size: 30px;
+}
 
 .Modulept2{
     border-radius: 5px;
@@ -81,6 +86,7 @@ color: white;
 #logoImg2{
     max-width: 150px;
     transition: 0.5s ease-in-out 0.5s;
+   
 
 }
 
@@ -99,3 +105,4 @@ color: white;
 }
 
 /*HoverId's------------------------------------------------------------------------------------------------*/
+}
