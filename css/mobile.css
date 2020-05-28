@@ -17,4 +17,41 @@
     .row{
         display: grid;
     }
+
+    .slideLeft{
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-name: slideLeft;
+        animation-name: slideLeft;
+    }
+    @keyframes slideLeft{
+        from{
+            -webkit-transform: translate3d(0,-100%,0);
+            transform: translate3d(0,-100%,0);
+        }
+        to{
+            -webkit-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+        }
+    }
+    .slideRight{
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-name: slideRight;
+        animation-name: slideRight;
+    }
+    @keyframes slideRight{
+        from{
+            -webkit-transform: translate3d(0,100%,0);
+            transform: translate3d(0,100%,0);
+        }
+        to{
+            -webkit-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+        }
+    }
 }
