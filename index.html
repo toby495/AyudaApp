@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/grids.css">
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
     <title>AyudApp</title>
 </head>
 <body>
@@ -34,14 +36,14 @@
                         </div>
                     </div>
                     <div class="col-8">
-                        <div class="Modulept2 slideUp">
-                            <form action="" method="POST" >
+                        <div class="Modulept2 slideUp" id="Modulept2">
+                            <form action="" method="GET" >
                               <label for="name">Nombre</label><br>
-                              <input type="text" name="name"><br><br>
+                              <input type="text" name="name" id="inputName" required><br><br>
                               <label for="email">Email</label><br>
-                              <input type="email" name="email"><br><br>
+                              <input type="email" name="email" id="inputEmail" required><br><br>
                               <label for="tel">Telefono</label><br>
-                              <input type="tel" name="tel"><br>
+                              <input type="tel" name="tel" id="inputTel" required><br>
                               <input type="submit" id="send" name="send">
                             </form>
                         </div>
