@@ -18,5 +18,8 @@
         display: grid;
     }
 
+    #send{
+        margin-top: 30px;
+    }
     
 }
