@@ -9,7 +9,7 @@ html,body{
     padding: 0px;
 }
 header{
-    background-color:#2C3980;
+    background-color:#161C40;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -72,7 +72,7 @@ color: white;
 
 /*Id's------------------------------------------------------------------------------------------------*/
 #send{
-    background-color:#2C3980;
+    background-color:#161C40;
     color: white;
     border: none;
     border-radius: 5px;
